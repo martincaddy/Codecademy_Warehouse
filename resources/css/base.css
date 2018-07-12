@@ -63,12 +63,14 @@ select {
   color: hsla(0, 0%, 93%, 1);
   transition: .25s;
   margin-top: 1rem;
+  font-weight: 600;
 }
 
 .button:hover {
 
-  background-color: Black - hsla(0, 0%, 13%, 1);
+  /*background-color: Black - hsla(0, 0%, 13%, 1);*/
   color: hsla(0, 100%, 100%, 1);
+  background-color: #0018FF;
 }
 
 /* Reusable Component - Image Container */
