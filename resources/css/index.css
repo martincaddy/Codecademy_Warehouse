@@ -17,11 +17,18 @@ nav {
 
 .hero h2 {
   padding-top: 10rem;
-  color: hsla(0, 100%, 100%, 1);
+  /*color: hsla(0, 100%, 100%, 1);*/
+  color: #0018FF !important;
   font-family: Helvetica;
   font-size: inherit;
   font-weight: bold;
   text-align: center;
+  transition: .3s;
+  text-shadow: 2px 2px #fff;
+}
+
+.hero h2:hover{
+  color: #262E7F !important;
 }
 
 
