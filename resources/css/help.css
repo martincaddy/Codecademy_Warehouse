@@ -3,28 +3,46 @@
   justify-items: auto;
 }
 
-.sell {
+.help {
   padding: 3.75rem 11.75rem 18.75rem 11.75rem;
 }
 
-.sell h3 {
+.help h3 {
   margin-bottom: 2rem;
   font-weight: 600;
   font-size: 2rem;
   color: black;
 }
 
-.sell label {
+.help label {
   color: black;
   font-weight: 600;
   padding-top: 1rem;
 }
 
+#desc:hover {
+  background-color: #D5DAFF;
+}
+
+#desc {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*form {*/
+/*  display: grid;*/
+/*  grid-template-areas: 'name name email email'*/
+/*                       'description description description description'*/
+/*                       '. . . submit';*/
+/*  font-size: inherit;*/
+/*}*/
+
 form {
   display: grid;
-  grid-template-areas: 'name name price quantity'
-                       'description description description description'
-                       '. . . submit';
+  grid-template-areas: 
+  'name name . .'
+  'email email . .'
+  'description description description description'
+  '. . . submit';
   font-size: inherit;
 }
 
@@ -47,13 +65,10 @@ textarea {
   grid-area: name;
 }
 
-#price {
-  grid-area: price;
+#email {
+  grid-area: email;
 }
 
-#quantity {
-  grid-area: quantity;
-}
 
 #description {
   grid-area: description;
@@ -62,14 +77,6 @@ textarea {
 #submit {
   grid-area: submit;
   justify-self: end;
-}
-
-#desc:hover {
-  background-color: #D5DAFF;
-}
-
-#desc {
-  font-family: 'Josefin Sans', sans-serif;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -82,7 +89,7 @@ textarea {
 @media only screen and (max-width: 970px) {
   form {
     grid-template-areas: 'name name'
-                         'price quantity'
+                         'email email'
                          'description description'
                          '. submit';
   }
@@ -91,8 +98,7 @@ textarea {
 @media only screen and (max-width: 660px) {
   form {
     grid-template-areas: 'name'
-                         'price'
-                         'quantity'
+                         'email'
                          'description'
                          'submit';
   }

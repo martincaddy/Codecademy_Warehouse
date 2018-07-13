@@ -6,13 +6,16 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,600i,700,700i" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
   <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/index.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/help.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:700" rel="stylesheet">
 </head>
 <body>
   <div class="container">
 
     <!-- Header -->
 
-   <header>
+    <header>
       <div role="banner" class="image-container" id="logo">
         <a href="index.html" title="Link to home"><img src="resources/img/warehouse-logo.svg"></a>
       </div>
@@ -30,50 +33,32 @@
       <a role="menuitem" href="help.html" title="Ask for help if you need it">Help</a>
     </nav>
 
-    <!-- Sofas Section -->
+    <!-- Help Form -->
 
-    <div id="main" class="product-list-section">
-      <ul class="breadcrumb">
-        <li><a href="products.html">All Products</a></li>
-        <li><a href="living.html">Living Room</a></li>
-        <li>Sofas</li>
-      </ul>
+    <!-- Sell Product Form -->
 
-      <div class="product-list">
-        <a href="#" class="product-item">
-          <div class="image-container">
-            <img src="resources/img/sofas/grey-sofa.jpg">
-          </div>
-          <div class="description">
-            <h3>Grey Sofa</h3>
-            <span class="price">$499</span>
-          </div>
-        </a>
-
-        <a href="#" class="product-item">
-          <div class="image-container">
-            <img src="resources/img/sofas/charcoal-sofa.jpg">
-          </div>
-          <div class="description">
-            <h3>Charcoal Sofa</h3>
-            <span class="price">$799</span>
-          </div>
-        </a>
-
-        <a href="#" class="product-item">
-          <div class="image-container">
-            <img src="resources/img/sofas/white-sofa.jpg">
-          </div>
-          <div class="description">
-            <h3>White Sofa</h3>
-            <span class="price">$699</span>
-          </div>
-        </a>
-
-      </div>
+    <div id="main" class="help">
+      <h3>Ask for Help</h3>
+      <form>
+        <div id="name" class="field">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Name and Surname">
+        </div>
+        <div id="email" class="field">
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Email address">
+        </div>
+        
+        <div id="description" class="field">
+          <label for="description">Description</label>
+          <textarea type="text" name="description" placeholder="Description of issue" id="desc"></textarea>
+        </div>
+        <a href="#" class="button" id="submit">Submit</a>
+      </form>
     </div>
-
-    <!-- Footer -->
+    
+    
+       <!-- Footer -->
 
     <footer>
       <a href="index.html" class="footicon" title="link to home"><img src="resources/img/warehouse-logo.svg"></a>
@@ -100,5 +85,6 @@
       </section>
     </footer>
   </div>
+
 </body>
 </html>

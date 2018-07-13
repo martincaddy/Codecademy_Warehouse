@@ -12,22 +12,22 @@
 
     <!-- Header -->
 
-    <header>
-      <div class="image-container" id="logo">
+      <header>
+      <div role="banner" class="image-container" id="logo">
         <a href="index.html" title="Link to home"><img src="resources/img/warehouse-logo.svg"></a>
       </div>
-      <div class="search-bar">
-        <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+      <div role="search" class="search-bar">
+        <input aria-label="search" type="text" name="search" placeholder="Search for items">
+        <a aria-label="Search Button" href="" class="icon"><img src="resources/img/search.svg"></a>
       </div>
       <a href="cart.html" class="button cart" title="Shopping Cart">Cart <img src="resources/img/cart.svg"></a>
     </header>
-    <nav class="nav">
-      <a href="deals.html" title="Our best deals of the day">Today's Deals</a>
-      <a href="products.html" title="View all our products">All Products</a>
-      <a href="about.html" title="Find out about our company">About Us</a>
-      <a href="sell.html" title="Sell your product with us">Sell</a>
-      <a href="#" title="Ask for help if you need it">Help</a>
+    <nav aria-label="Website Navigation" class="nav">
+      <a role="menuitem" href="deals.html" title="Our best deals of the day">Today's Deals</a>
+      <a role="menuitem" href="products.html" title="View all our products">All Products</a>
+      <a role="menuitem" href="about.html" title="Find out about our company">About Us</a>
+      <a role="menuitem" href="sell.html" title="Sell your product with us">Sell</a>
+      <a role="menuitem" href="help.html" title="Ask for help if you need it">Help</a>
     </nav>
 
     <!-- Products Section -->
@@ -115,27 +115,27 @@
 
     <footer>
       <a href="index.html" class="footicon" title="link to home"><img src="resources/img/warehouse-logo.svg"></a>
-      <div class="links">
+      <section aria-label="footer section" class="links">
         <h4>Get to know us</h4>
-        <a href="#">About us</a>
-        <a href="jobs.html">Jobs</a>
-        <a href="#">Investor relations</a>
-        <a href="#">Link</a>
-      </div>
-      <div class="links">
+        <a aria-labelledby="get-to-know-us" href="#">About us</a>
+        <a aria-labelledby="get-to-know-us" href="jobs.html">Jobs</a>
+        <a aria-labelledby="get-to-know-us" href="#">Investor relations</a>
+        <a aria-labelledby="get-to-know-us" href="#">Link</a>
+      </section>
+      <section aria-label="footer section" class="links">
         <h4>Make money with us</h4>
-        <a href="sell.html">Sell on WareHouse</a>
-        <a href="#">Become a vendor</a>
-        <a href="#">Fundraiser events</a>
-        <a href="#">Community outreach</a>
-      </div>
-      <div class="links">
+        <a aria-labelledby="make-money-with-us" href="sell.html">Sell on WareHouse</a>
+        <a aria-labelledby="make-money-with-us" href="#">Become a vendor</a>
+        <a aria-labelledby="make-money-with-us" href="#">Fundraiser events</a>
+        <a aria-labelledby="make-money-with-us" href="#">Community outreach</a>
+      </section>
+      <section aria-label="footer section" class="links">
         <h4>Help</h4>
-        <a href="#">Contact us</a>
-        <a href="#">Conditions of use</a>
-        <a href="#">Report a problem</a>
-        <a href="#">Privacy Policy</a>
-      </div>
+        <a aria-labelledby="help" href="#">Contact us</a>
+        <a aria-labelledby="help" href="#">Conditions of use</a>
+        <a aria-labelledby="help" href="#">Report a problem</a>
+        <a aria-labelledby="help" href="#">Privacy Policy</a>
+      </section>
     </footer>
   </div>
 </body>
