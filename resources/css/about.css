@@ -44,6 +44,10 @@
   padding-right: 1rem !important;
 }
 
+#join {
+  padding-bottom: 1rem;
+}
+
 @media only screen and (max-width: 735px) {
   .about h1 {
     font-size: 6rem;
