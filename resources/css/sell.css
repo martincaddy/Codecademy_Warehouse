@@ -26,6 +26,7 @@ form {
                        'description description description description'
                        '. . . submit';
   font-size: inherit;
+  grid-column-gap: 50px;
 }
 
 input {

@@ -9,7 +9,9 @@
 
 .jobs h3 {
   margin-bottom: 1rem;
-  font-size: inherit;
+  font-size: 1.75rem;
+  color: black;
+  font-weight: 600;
 }
 
 form {
@@ -17,6 +19,19 @@ form {
   grid-template-columns: repeat(2, 2fr) 1fr;
   align-items: flex-end;
   margin-bottom: 3.125rem;
+  grid-column-gap: 35px;
+}
+
+h4 {
+  color: #000;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+label {
+  color: #000;
+  font-weight: 600;
 }
 
 #main form .button {
@@ -37,9 +52,32 @@ form {
   padding-bottom: .5rem;
   font-size: inherit;
   line-height: 1.2;
+  color: #000;
+  font-weight: 600;
+}
+
+.job span {
+  color: #000;
 }
 
 #see-all-jobs {
   justify-self: center;
   margin-top: 3.6875rem;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 970px) {
+  form {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  label {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #career {
+    font-size: 1.2rem;
+  }
 }

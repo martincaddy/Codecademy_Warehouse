@@ -35,63 +35,66 @@
 
     <div id="main" class="jobs">
       <h3>Jobs</h3>
+      <h4 id="career">Build your career with us</h4>
 
-      <!-- Job Search Bar -->
-
-      <!--<form>-->
-      <!--  <div id="name" class="field">-->
-      <!--    <label for="name">Product Name</label>-->
-      <!--    <input type="text" name="name" placeholder="Name of product">-->
-      <!--  </div>-->
-      <!--  <div id="name" class="field">-->
-      <!--    <label for="name">Product Name</label>-->
-      <!--    <input type="text" name="name" placeholder="Name of product">-->
-      <!--  </div>-->
-      <!--  <a href="#" class="button">Go</a>-->
-      <!--</form>-->
+       
 
       <!-- Recently Posted Job List -->
-
-      <h3>Recently Posted</h3>
-      <div class="job-list">
-        <div class="job">
-          <h4>Director, Showroom Experience</h4>
-          <span>New York, NY</span>
+      
+      <form>
+        <div id="name" class="field">
+          <label for="name">Job Name</label>
+          <input type="text" name="name" id="name" title="Search job title" placeholder="Job Title">
         </div>
-        <div class="job">
-          <h4>Senior Manager, Showroom Experience</h4>
-          <span>New York, NY</span>
+        <div id="name" class="field">
+          <label for="name">Location</label>
+          <input type="text" name="name" id="location" title="Search job location" placeholder="Location">
         </div>
-        <div class="job">
-          <h4>Executive Assistant</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Marketing Manager, Digital Acquisition</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Seniore Software Engineer</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Principal Researcher</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Software Engineer, Campus Recruiter</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Staff Engineer</h4>
-          <span>New York, NY</span>
-        </div>
-        <div class="job">
-          <h4>Director of Data Engineering</h4>
-          <span>New York, NY</span>
-        </div>
-      </div>
-      <a href="#" class="button" id="see-all-jobs">See All Open Jobs</a>
+        <a href="#" class="button">Go</a>
+      </form>
+      
+      <!-- Recently Posted Job List -->
+				<h3 id="recently-posted">Recently Posted</h3>
+				<div role="list" class="job-list">
+					<div role="listitem" aria-labelledby="recently-posted" aria-describedby="job-title-1" class="job">
+						<h4 id="job-title-1">Director, Showroom Experience</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-2" class="job">
+						<h4 id="job-title-2">Senior Manager, Showroom Experience</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-3" class="job">
+						<h4 id="job-title-3">Executive Assistant</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-4" class="job">
+						<h4 id="job-title-4">Marketing Manager, Digital Acquisition</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-5" class="job">
+						<h4 id="job-title-5">Seniore Software Engineer</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-6" class="job">
+						<h4 id="job-title-6">Principal Researcher</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-7" class="job">
+						<h4 id="job-title-7">Software Engineer, Campus Recruiter</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem" aria-labelledby="recently-posted" aria-describedby="job-title-8" class="job">
+						<h4 id="job-title-8">Staff Engineer</h4>
+						<span>New York, NY</span>
+					</div>
+					<div role="listitem"  aria-labelledby="recently-posted" aria-describedby="job-title-9" class="job">
+						<h4 id="job-title-9">Director of Data Engineering</h4>
+						<span>New York, NY</span>
+					</div>
+				</div>
+				<button class="button" id="see-all-jobs">See All Open Jobs</button>
+			</div>
     </div>
 
     <!-- Footer -->
@@ -100,7 +103,7 @@
       <a href="index.html" class="footicon" title="link to home"><img src="resources/img/warehouse-logo.svg"></a>
       <section aria-label="footer section" class="links">
         <h4>Get to know us</h4>
-        <a aria-labelledby="get-to-know-us" href="#">About us</a>
+        <a aria-labelledby="get-to-know-us" href="about.html">About us</a>
         <a aria-labelledby="get-to-know-us" href="jobs.html">Jobs</a>
         <a aria-labelledby="get-to-know-us" href="#">Investor relations</a>
         <a aria-labelledby="get-to-know-us" href="#">Link</a>
@@ -114,7 +117,7 @@
       </section>
       <section aria-label="footer section" class="links">
         <h4>Help</h4>
-        <a aria-labelledby="help" href="#">Contact us</a>
+        <a aria-labelledby="help" href="help.html">Contact us</a>
         <a aria-labelledby="help" href="#">Conditions of use</a>
         <a aria-labelledby="help" href="#">Report a problem</a>
         <a aria-labelledby="help" href="#">Privacy Policy</a>

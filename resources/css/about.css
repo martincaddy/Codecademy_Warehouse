@@ -39,6 +39,11 @@
   background-color: hsla(0, 0%, 100%, 1);
 }
 
+#jobsbutton {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
 @media only screen and (max-width: 735px) {
   .about h1 {
     font-size: 6rem;
